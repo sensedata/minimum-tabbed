@@ -1,0 +1,40 @@
+{
+  "name": "@minimum/tabbed",
+  "version": "1.0.0",
+  "description": "Minimalist tabbed component for React+Redux apps.",
+  "license": "MIT",
+
+  "private": true,
+  "repository": "github:sensedata/minimum-tabbed",
+  "bugs": "https://github.com/sensedata/minimum-tabbed/issues",
+
+  "author": "SenseDataGroup <hello@sensedata.com> (http://www.sensedata.com/)",
+  "contributors": [
+    "Matthew Jones <matt@sensedata.com> (http://www.sensedata.com/about/us#matt)",
+    "Yuri Gadow <yuri@sensedata.com> (http://www.sensedata.com/about/us#yuri)"
+  ],
+
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest test"
+  },
+
+  "type": "module",
+  "main": "src/index.js",
+
+  "peerDependencies": {
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "redux": "^4.2",
+    "react-redux": "^8.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0",
+    "eslint": "^8.19",
+    "jest": "^28.1",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "redux": "^4.2",
+    "react-redux": "^8.0",
+    "react-test-renderer": "^18.2"
+  }
+}
